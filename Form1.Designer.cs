@@ -60,7 +60,7 @@
             this.textBox1.Location = new System.Drawing.Point(477, 22);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(311, 102);
+            this.textBox1.Size = new System.Drawing.Size(307, 62);
             this.textBox1.TabIndex = 1;
             // 
             // comboBox1

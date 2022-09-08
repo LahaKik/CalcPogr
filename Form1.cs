@@ -99,7 +99,6 @@ namespace WindowsFormsApp1
                 {
                     string ocrX;
                     dX = sigma * Kst(N, comboBox1.SelectedIndex);
-                    textBox1.Text += "dX: " + dX.ToString() + "\r\n";
                     string dXstr = dX.ToString();
                     if (Convert.ToUInt16(dXstr[dXstr.IndexOf(',') + 1]) >= 3)
                     {
@@ -113,7 +112,7 @@ namespace WindowsFormsApp1
                         dXstr = dX.ToString();
                         ocrX = Math.Round(SrArif, 2).ToString();
                     }
-                    textBox1.Text += "Итого: " + '(' + ocrX + '±' + dXstr + ')' + "\r\n";
+                    textBox1.Text += '(' + ocrX + '±' + dXstr + ')' + "\r\n";
                 }
             }
 
